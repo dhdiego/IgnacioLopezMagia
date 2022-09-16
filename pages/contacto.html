@@ -62,54 +62,44 @@
 
 
 
-        <main class="main">
+        <main>
             <h1 class="animate__animated animate__fadeInDown">Contactame.</h1>
-
-            <form class="formulario">
-
-                <fieldset>
-                    <legend>Contáctanos Llenando Todos los Campos:</legend>
-
-                    <div class="contenedorCampos">
-
-                        <div class="campo">
-                            <label for="Nombre y Apellido">Nombre y Apellido:</label>
-                            <input type="text" placeholder="Nombre y Apellido">
+        
+            <div class="container mt-5">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label"> Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="apellido" class="form-label"> Apellido</label>
+                            <input type="text" class="form-control" id="apellido" required>
                         </div>
-
-                        <div class="campo">
-                            <label for="Telefono">Telefono:</label>
-                            <input type="tel" placeholder="Telefono">
+                        <div class="col-md-8">
+                            <label for="emailInfo" class="form-label">E-Mail</label>
+                            <input type="email" class="form-control" id="emailInfo" required>
                         </div>
+                        <div class="col-md-4">
+                            <label for="numeroDeTelefono" class="form-label">Numero De Telefono</label>
+                            <input type="text" class="form-control" id="numeroDeTelefono" placeholder="+54 11 -36568388">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="comentario" class="form-label">Dejanos tu pregunta o Pedido de Inscripción</label>
+                            <textarea class="form-control" id="comentario rows" 3" required></textarea>
+        
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
 
-                        <div class="campo">
-                            <label for="Ingrese su Email">Ingrese Su Email:</label>
-                            <input type="email" placeholder="Ingrese su email">
-                            <main>
-
-                                <div class="campo">
-                                    <label for="Mensaje:">Mensaje</label>
-
-                                    <textarea class="textarea" cols="30" rows="20" name="Mensaje">Mensaje</textarea>
-                                    <input class="botonContacto" type="button" value="....">
-                                    <input class="botonContacto" type="submit" value="Enviar Formulario">
-                                    <input class="botonContacto" type="reset" value="Borrar Formulario">
-                                </div>
-
-                        </div> <!-- contenedor de campos -->
-                        <label for="Motivo">Motivo de la consulta?</label>
-
-                        <select name="Motivo">
-                            <option value="Quiero Contratar Un Show">Quiero Contratar Un Show</option>
-                            <option value="Quiero Una Masterclass">Quiero Una Masterclass</option>
-                            <option value="Quiero Comprar un Producto">Quiero Comprar un Producto</option>
-                            <option value="Otra Consulta">Otra Consulta</option>
-                        </select>
-
-                </fieldset>
-            </form>
-
-    </div>
+                        </div>
+        
+        
+                    </form>
+        
+        
+        
+            </div>
 
     <!-- footer -->
 
