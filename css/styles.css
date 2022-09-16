@@ -40,10 +40,12 @@ h2 {
   font-weight: bold;
   font-size: 30px;
 }
-
+.navbar navbar-expand-lg navbar-dark bg-dark {
+  position: fixed;
+}
 .nav-link {
   font-size: 25px;
-
+/*   position: fixed; */
 }
 .nav-link:hover {
   background-color: red;
@@ -103,7 +105,7 @@ margin: 100px;
 }
 
 .textoBio {
-
+  flex: 1;
   display: flex;
 justify-content: space-between;
   transition: all 2s;
@@ -112,21 +114,28 @@ justify-content: space-between;
   
   }
   .textoBio Img{
+    flex: 1;
+    max-height: 400px;
+    max-width: 400px;
     display: flex;
-    justify-content: center;
-    border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+    border-radius: 50%;
   
   }
   .textoBio Img:hover{
+    flex: 1;
     cursor: pointer;
     -webkit-transform:scale(1.3);
     transform:scale(1.3);
     filter: sepia(50%);
+
    
   
   }
   
   .textoBio p {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +225,16 @@ justify-content: flex-start;
 
 
 @media (max-width: 500px) {
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 20px;
+}
 
+.video {
+  display: none;
+}
   .redes {
     display: flex;
     flex-direction: column;
@@ -225,7 +243,7 @@ justify-content: flex-start;
   }
 
   .botonContacto {
-    font-size: 15px;
+    font-size: 10px;
     display: flex;
  justify-content: center;
 
