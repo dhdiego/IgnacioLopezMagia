@@ -356,11 +356,21 @@ transform: rotate(360deg);
   }
 
   /* cartas */
-
   .btn-primary {
-    background-color: black;
- text-align: center;
-
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: red;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: red;
+    --bs-btn-active-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: black;
+    --bs-btn-disabled-border-color: black;
 
 /* vita tablet */
 
