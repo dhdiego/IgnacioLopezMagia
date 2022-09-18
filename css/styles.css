@@ -18,8 +18,7 @@
 
 body {
 
-background-color: white;
-background-size: cover;
+background-image: linear-gradient(to top,#dfe9f3 0%, white 100%);
 background-repeat: no-repeat;
 font-family: "krub", Arial, Helvetica, sans-serif;
 }
@@ -94,7 +93,9 @@ h3 {
  height: 65vh;
 }
 
-
+.container {
+  padding-bottom: 10px;
+}
 
 
 .video {
@@ -140,6 +141,25 @@ justify-content: space-between;
   
       
   
+  }
+@keyframes rotacion {
+  from {transform: rotateZ(0deg);}
+  to{transform: rotateZ(360deg);}
+}
+  .sombreroMago img {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 600px;
+    width: 400px;
+    height: 400px;
+    animation-name: rotacion;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
   .efectoTextoBio {
@@ -313,6 +333,49 @@ display: inline-block;
    
   }
 
+  .gridGaleriaShow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  
+  
+  
+     
+    }
+    .gridGaleriaShow img{ 
+      transition: all 3s;
+     /*  filter: hue-rotate(90deg); */
+    }
+  .gridGaleriaShow .grid_itemShow img:hover {
+  
+      transition: all 3s;
+  /*     filter: hue-rotate(90deg); */
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #EA0606 ;
+  -webkit-box-shadow: 0px 0px 15px 15px #FF0909;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      cursor: pointer;
+      height: 490px;
+      
+      
+   
+    }
+   
+    
+      
+ .textoBio p {
+  background-color: white;
+ }     
+   
+  
+  
+  
+  .grid_item {
+  margin: 5px;
+  }
   .imagenPortadaResponsiveShow {
     display: block;
     max-width: 100%;
@@ -393,7 +456,8 @@ transform: rotate(360deg);
   }
 @media (max-width: 768px) {
 
-  .textoBio {
+  .textoBio p {
+    background-color: antiquewhite;
     display: flex;
   flex-direction: column;
 }
