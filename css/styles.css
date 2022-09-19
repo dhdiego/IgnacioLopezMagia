@@ -561,7 +561,7 @@ footer {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .video {
@@ -578,14 +578,20 @@ footer {
   .botonContacto {
 
     font-size: 10px;
-    /* display: flex; */
-    /* flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin: 50px; */
+display: flex;
+   
+       align-items: center;
+       justify-content: center;
+    margin: 0 auto;
   }
+  .botonContacto {
 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ margin: 0 auto;
+ margin-left: 10px;
+  }
 
   .textoBio {
 
