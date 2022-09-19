@@ -113,6 +113,8 @@ h3 {
 }
 
 .botonContacto {
+  display: flex;
+  justify-content: center;
   background-color: black;
   text-align: center;
   border-radius: 5px;
@@ -124,12 +126,13 @@ h3 {
 }
 
 .botonContacto a {
+  display: block;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 0.5rem;
   text-decoration: none;
-  margin: 100px;
+  margin: 10px;
 
 
 }
@@ -574,19 +577,15 @@ footer {
 
   .botonContacto {
 
-    font-size: 15px;
-    display: flex;
+    font-size: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding: 5px;
-    margin: 50px;
+    margin: 50px; */
   }
 
-  .botonContacto a {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin: 100px;
-  }
 
   .textoBio {
 
