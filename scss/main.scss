@@ -1,9 +1,11 @@
+@import "variables";
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-
+  
   body {
 
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
@@ -23,7 +25,7 @@
   }
   
   h1 {
-    color: black;
+    color: $colorPrincipal;
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -32,7 +34,7 @@
   }
   
   h2 {
-    color: black;
+    color: $colorPrincipal;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -48,7 +50,7 @@
 }
 
 h3 {
-    color: black;
+    color: $colorPrincipal;
     text-align: center;
     font-weight: bold;
     font-size: 25px;
@@ -116,7 +118,7 @@ h3 {
 
     a {
         display: block;
-        color: white;
+        color: $colorSecundario;
         text-transform: uppercase;
         font-weight: bold;
         border-radius: 0.5rem;
@@ -214,7 +216,7 @@ h3 {
 
   footer {
     width: 100%;
-    background: white;
+    background: $colorSecundario;
     height: 100px;
     margin-top: 0px;
     display: flex;
@@ -246,10 +248,10 @@ h3 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    color: black;
+    color: $colorPrincipal;
 
     &:hover {
-        color: #3b5998;
+        color: $colorFacebook;
       }
     
   }
@@ -259,10 +261,10 @@ h3 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    color: black;
+    color: $colorPrincipal;
 
     &:hover {
-        color: #25D366;
+        color: $colorWhatsapp;
       }
   }
   
@@ -273,10 +275,10 @@ h3 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    color: black;
+    color: $colorPrincipal;
 
     &:hover {
-        color: red;
+        color: $colorInstagram;
       }
   }
   
@@ -287,10 +289,10 @@ h3 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    color: black;
+    color: $colorPrincipal;
 
     &:hover {
-        color: red;
+        color: $colorYoutube;
       }
   }
 

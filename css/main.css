@@ -1,3 +1,4 @@
+/* redes */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -190,7 +191,7 @@ footer {
   margin-right: 10px;
   color: black; }
   .bi-facebook:hover {
-    color: #3b5998; }
+    color: blue; }
 
 .bi-whatsapp {
   font-size: 45px;
@@ -199,7 +200,7 @@ footer {
   margin-right: 10px;
   color: black; }
   .bi-whatsapp:hover {
-    color: #25D366; }
+    color: green; }
 
 .bi-instagram {
   font-size: 45px;
