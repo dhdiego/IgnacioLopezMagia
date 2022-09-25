@@ -104,29 +104,6 @@ h3 {
   justify-content: center;
   margin: 200px 200px; }
 
-.botonContacto {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  text-align: center;
-  border-radius: 5px;
-  color: black;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-  margin: 100px; }
-  .botonContacto a {
-    display: block;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    margin: 10px; }
-    .botonContacto a:hover {
-      background-color: red;
-      padding: 15px; }
-
 .textoBio {
   flex: 1;
   display: flex;
