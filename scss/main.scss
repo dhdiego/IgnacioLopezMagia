@@ -108,6 +108,7 @@ h3 {
  
 
   .textoBio {
+    padding: 15px;
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -181,7 +182,7 @@ h3 {
   }
 
   .efectoTextoBio {
-    margin: 10px;
+  
     max-width: max-content;
     font-size: 40px;
     border: 3px solid red;
@@ -317,6 +318,7 @@ h3 {
     filter: opacity(100%);
 
     .flex_itemShow img {
+      margin: 10px;
         transition: all 3s;
         padding: 10px;
         width: 100%;
