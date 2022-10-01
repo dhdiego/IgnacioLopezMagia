@@ -1,5 +1,8 @@
 @import "variables";
 @import "contacto";
+@import "galeria";
+@import "redes";
+@import "media";
 
 * {
     box-sizing: border-box;
@@ -31,15 +34,21 @@
     font-weight: bold;
     font-size: 50px;
     margin: 10px;
-    filter: blur(2px);
-  }
+  /*   filter: blur(2px); */
+    &:hover {
+      transition-delay: 3s;
+      transition: 5s;
+      cursor: pointer;
+}
+}
+  
   
   h2 {
     color: $colorPrincipal;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    filter: blur(2px);
+   
     transition: 5s;
     transition-delay: 5s;
 
@@ -47,6 +56,7 @@
         transition-delay: 3s;
         transition: 5s;
         cursor: pointer;
+        filter: blur(1px);
   }
 }
 
@@ -212,95 +222,6 @@ h3 {
     margin-top: 30px;
   }
   
-  .redes {
-    display: inline-block;
-  
-  }
-
-  .bi-facebook {
-    font-size: 45px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: $colorPrincipal;
-
-    &:hover {
-        color: $colorFacebook;
-      }
-    
-  }
-
-  .bi-whatsapp {
-    font-size: 45px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: $colorPrincipal;
-
-    &:hover {
-        color: $colorWhatsapp;
-      }
-  }
-  
- 
-  
-  .bi-instagram {
-    font-size: 45px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: $colorPrincipal;
-
-    &:hover {
-        color: $colorInstagram;
-      }
-  }
-  
-
-  
-  .bi-youtube {
-    font-size: 45px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: $colorPrincipal;
-
-    &:hover {
-        color: $colorYoutube;
-      }
-  }
-
-  /* galeria */
-
-.galeriaFlex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-    filter: opacity(100%);
-
-    img {
-        width: 100%;
-        margin: 10px;
-        border: solid rgb(196, 58, 58);
-
-       &:hover {
-  
-            cursor: pointer;
-          
-            height: 500px;
-            padding: 10px;
-            filter: none;
-            filter: opacity(0%);
-            transform: rotate(15deg);
-          
-            background-color: antiquewhite;
-          }
-         
-      }
-  
-  }
-  
   /* ESTE NO SE DONDE METERLO */
 
   .galeriaFlex .grid_item img {
@@ -392,25 +313,26 @@ h3 {
     max-width: 100%;
     margin: 0px auto;
     text-align: center;
+
+    img {
+      transition: all 5s;
+      filter: contrast(175%) brightness(3%);
+      transition: all 5s;
+      filter: contrast(175%) brightness(3%);
+      &:hover {
+  
+        filter: drop-shadow(16px 16px 20px red);
+      
+        cursor: pointer;
+      }
+     
+    
+    }
   
   }
   
-  .imagenPortadaResponsiveShow img {
-    transition: all 5s;
-    filter: contrast(175%) brightness(3%);
-    transition: all 5s;
-    filter: contrast(175%) brightness(3%);
+
   
-  
-  
-  }
-  
-  .imagenPortadaResponsiveShow img:hover {
-  
-    filter: drop-shadow(16px 16px 20px red);
-  
-    cursor: pointer;
-  }
   
   .imagenPortadaResponsiveShow .flex_itemShow img:hover {
   
@@ -465,129 +387,7 @@ h3 {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     /* vita tablet */
   }
-  
-  @media (max-width: 768px) {
-  
-    h1 {
-    font-size: 20px;
-  
-  }
-    h2 {
-      font-size: 20px;
-    }
-  
-    h3
-  
-    .textoBio p {
-      background-color: antiquewhite;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .gridGaleriaShow {
-      flex-direction: column;
-    }
-  
-    .imagenPortadaResponsiveShow {
-      display: flex;
-      flex-direction: column;
-    
-    
-    }
-  
-    .galeriaShows {
-    
-  
-        flex-wrap: nowrap;
-        flex-direction: column;
-      }
-  
-    .sombreroMago img {
-      top: 300px;
-      width: 200px;
-      height: 200px;
-  
-    }
-    }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* ---------vista celular */
-  @media (max-width: 500px) {
-  
-    .logo {
-      width: 100px;
-    }
-    h1 {
-      font-size: 20px;
-    }
-  
-    h2 {
-      font-size: 10px;
-    }
-  
-    .video {
-      display: none;
-    }
-  
-    .redes {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .botonContacto {
-  
-      font-size: 10px;
-  display: flex;
-     
-         align-items: center;
-         justify-content: center;
-      margin: 0 auto;
-    }
-    .botonContacto {
-  
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   margin: 0 auto;
-   margin-left: 10px;
-    }
-  
-    .textoBio {
-  
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .imagenPortadaResponsive {
-      display: block;
-      width: 100%;
-      margin: 0px auto;
-      text-align: center;
-  
-    }
-  
-    #carouselExampleIndicators {
-      display: none;
-  
-    }
-    
-    .galeriaShows {
-      flex-wrap: nowrap;
-      flex-direction: column;
-    }
-  }
-  
+ 
   
   
   

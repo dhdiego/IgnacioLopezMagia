@@ -1,0 +1,30 @@
+  /* galeria */
+
+  .galeriaFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    filter: opacity(100%);
+
+    img {
+        width: 100%;
+        margin: 10px;
+        border: solid black;
+
+       &:hover {
+  
+            cursor: pointer;
+          
+            height: 500px;
+            padding: 10px;
+            filter: none;
+            filter: opacity(0%);
+            transform: rotate(15deg);
+          
+            background-color: antiquewhite;
+          }
+         
+      }
+  
+  }

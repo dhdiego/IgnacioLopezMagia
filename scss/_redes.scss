@@ -1,0 +1,62 @@
+/* redes */
+
+.redes {
+    display: inline-block;
+  
+  }
+
+  .bi-facebook {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $colorPrincipal;
+
+    &:hover {
+        color: $colorFacebook;
+      }
+    
+  }
+
+  .bi-whatsapp {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $colorPrincipal;
+
+    &:hover {
+        color: $colorWhatsapp;
+      }
+  }
+  
+ 
+  
+  .bi-instagram {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $colorPrincipal;
+
+    &:hover {
+        color: $colorInstagram;
+      }
+  }
+  
+
+  
+  .bi-youtube {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $colorPrincipal;
+
+    &:hover {
+        color: $colorYoutube;
+      }
+  }
+
+
+
