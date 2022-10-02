@@ -48,15 +48,15 @@
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-   
+    filter: blur(1px);
     transition: 5s;
-    transition-delay: 5s;
+    transition-delay: 1s;
 
     &:hover {
         transition-delay: 3s;
-        transition: 5s;
+        transition: 1s;
         cursor: pointer;
-        filter: blur(1px);
+      
   }
 }
 
