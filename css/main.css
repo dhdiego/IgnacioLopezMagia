@@ -378,7 +378,8 @@ footer {
 .textoBio p {
     background-color: antiquewhite;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: center; }
   .gridGaleriaShow {
     flex-direction: column; }
   .imagenPortadaResponsiveShow {
