@@ -414,11 +414,14 @@ h3 {
     .textoBio p {
       
       
-       background-color: antiquewhite;
+      background-color: black;
       display: flex;
       flex-direction: column;
       justify-content: center;
-     
+
+           ul li {
+          font-size: 50px;
+           }
     }
   
     .gridGaleriaShow {

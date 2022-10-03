@@ -376,10 +376,13 @@ footer {
     font-size: 20px; }
   h3
 .textoBio p {
-    background-color: antiquewhite;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center; }
+    h3
+.textoBio p ul li {
+      font-size: 50px; }
   .gridGaleriaShow {
     flex-direction: column; }
   .imagenPortadaResponsiveShow {
