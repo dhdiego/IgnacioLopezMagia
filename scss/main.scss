@@ -69,7 +69,7 @@ h3 {
   
   }
 
-  .container-fluid .navbar navbar-expand-lg navbar-dark bg-dark {
+  .container-fluid .navbar navbar-expand-lg navbar-dark  {
     position: fixed;
   }
 
@@ -133,13 +133,13 @@ h3 {
         font-size: 20px;
         margin: 20px;
 
-        
+        ul li{ font-size: 20px;
+          text-align: justify;
+        margin: 10px;}
         
 
       }
-      li{ font-size: 20px;
-      text-align: justify;
-    margin: 10px;}
+    
       
 
     Img {
@@ -149,7 +149,7 @@ h3 {
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
+       border-radius: 50%;
 
         &:hover {
             flex: 1;
@@ -165,6 +165,7 @@ h3 {
       }
     
   }
+
   
   @keyframes rotacion {
     from {
@@ -202,9 +203,14 @@ h3 {
   .efectoTextoBio {
   
     max-width: max-content;
-    font-size: 40px;
+    font-size: 20px;
     border: 3px solid red;
+    margin: 10px;
+    
+
   }
+ 
+
 
   footer {
     width: 100%;
@@ -305,9 +311,9 @@ h3 {
   
   
   
-  .textoBio p {
+  /* .textoBio p {
     background-color: white;
-  }
+  } */
   
   
   
