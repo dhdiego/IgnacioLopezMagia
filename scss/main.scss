@@ -2,6 +2,7 @@
 @import "contacto";
 @import "galeria";
 @import "redes";
+@import "media";
 
 
 * {
@@ -99,9 +100,7 @@ h3 {
 
   .slide {
     margin-top: 10px;
-    img {
-        height: 65vh;
-      }
+   
   }
   
   .container {
@@ -111,7 +110,7 @@ h3 {
   .video {
     display: flex;
     justify-content: center;
-    margin: 200px 200px;
+    margin: 30px 30px;
   
   }
 
@@ -266,8 +265,8 @@ h3 {
             -webkit-border-radius: 50%;
             box-shadow: 0px 0px 15px 15px #EA0606;
             -webkit-box-shadow: 0px 0px 15px 15px #FF0909;
-            transform: rotate(360deg);
-            -webkit-transform: rotate(360deg);
+            /* transform: rotate(360deg);
+            -webkit-transform: rotate(360deg); */
             cursor: pointer;
             height: 490px;
           
@@ -405,7 +404,7 @@ h3 {
   
   
    
-  @media (max-width: 768px) {
+/*   @media (max-width: 768px) {
   
     h1 {
     font-size: 20px;
@@ -460,7 +459,7 @@ h3 {
   
   
   /* ---------vista celular */
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
   
     .logo {
       width: 100px;
@@ -525,8 +524,8 @@ h3 {
       flex-wrap: nowrap;
       flex-direction: column;
     }
-  }
-  
+  } 
+   */
   
   
   
