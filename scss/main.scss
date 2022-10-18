@@ -48,8 +48,9 @@
     color: $colorPrincipal;
     text-align: center;
     font-weight: bold;
+    
     font-size: 30px;
-    filter: blur(1px);
+  /*   filter: blur(1px); */
     transition: 5s;
     transition-delay: 1s;
 
@@ -231,7 +232,7 @@ h3 {
     margin-top: 30px;
   }
   
-  /* ESTE NO SE DONDE METERLO */
+
 
   .galeriaFlex .grid_item img {
     transition: all 3s;
@@ -246,6 +247,7 @@ h3 {
     justify-content: center;
     padding: 5px;
     filter: opacity(100%);
+    margin: 20px;
 
     .flex_itemShow img {
       margin: 10px;
@@ -255,16 +257,14 @@ h3 {
 
       &:hover {
   
-            transition: all 3s;
-            /*     filter: hue-rotate(90deg); */
+            transition: all 1s;
             border-radius: 50%;
             -webkit-border-radius: 50%;
-            box-shadow: 0px 0px 15px 15px #EA0606;
-            -webkit-box-shadow: 0px 0px 15px 15px #FF0909;
+           
             /* transform: rotate(360deg);
             -webkit-transform: rotate(360deg); */
             cursor: pointer;
-            height: 490px;
+            height: fit-content;
           
           
           
@@ -299,17 +299,12 @@ h3 {
   
   .galeriaShows img {
     transition: all 3s;
-    /*  filter: hue-rotate(90deg); */
+   
   }
   
   
   
-  
-  
-  /* .textoBio p {
-    background-color: white;
-  } */
-  
+     
   
   
   
@@ -410,10 +405,13 @@ h3 {
       font-size: 20px;
     }
   
-    h3
-  
+    .textoBio {
+      flex-direction: column;
+align-items: center;  
+  }
     .textoBio p {
-      background-color: antiquewhite;
+    
+      
       display: flex;
       flex-direction: column;
     }
@@ -446,14 +444,6 @@ h3 {
    
   
   
-  
-  
-  
-  
-  
-  
-  
-  
   /* /* ---------vista celular */
    @media (max-width: 500px) {
   
@@ -465,7 +455,14 @@ h3 {
     }
   
     h2 {
-      font-size: 10px;
+
+      font-size: 15px;
+    }
+
+ 
+
+    h3 {
+      font-size: 15px;
     }
   
     .video {
@@ -479,7 +476,7 @@ h3 {
       align-items: center;
     }
   
-    .botonContacto {
+   /*  .botonContacto {
   
       font-size: 10px;
   display: flex;
@@ -487,14 +484,16 @@ h3 {
          align-items: center;
          justify-content: center;
       margin: 0 auto;
-    }
+    } */
     .botonContacto {
   
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   margin: 0 auto;
-   margin-left: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 10px;
+   margin: 5 auto;
+   
+   
     }
   
     .textoBio {
@@ -522,9 +521,11 @@ h3 {
     }
 
     .galeriaFlex img:hover {
+     
       height: auto;
       transform: none;
       filter: none;
+      
     }
   } 
 

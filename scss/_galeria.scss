@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+    margin: 20px;
     filter: opacity(100%);
 
     img {
@@ -15,12 +16,10 @@
        &:hover {
   
             cursor: pointer;
-          
-            height: 500px;
-            padding: 10px;
+       
+ 
             filter: none;
             filter: opacity(0%);
-            transform: rotate(15deg);
           
             background-color: antiquewhite;
           }
