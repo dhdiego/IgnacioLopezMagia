@@ -105,12 +105,11 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 50px;
-  margin: 10px;
-  /*   filter: blur(2px); */ }
+  margin: 10px; }
   h1:hover {
-    transition-delay: 3s;
     transition: 5s;
-    cursor: pointer; }
+    cursor: pointer;
+    filter: blur(10px); }
 
 h2 {
   color: black;
@@ -290,6 +289,7 @@ footer {
   margin: 0px auto;
   text-align: center; }
   .imagenPortadaResponsiveShow img {
+    margin-bottom: 20px;
     transition: all 5s;
     filter: contrast(175%) brightness(3%);
     transition: all 5s;
