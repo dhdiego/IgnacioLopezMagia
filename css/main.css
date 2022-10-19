@@ -116,13 +116,11 @@ h2 {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
-  /*   filter: blur(1px); */
   transition: 5s;
   transition-delay: 1s; }
   h2:hover {
     transition-delay: 3s;
-    transition: 1s;
-    cursor: pointer; }
+    transition: 1s; }
 
 h3 {
   color: black;
@@ -132,7 +130,7 @@ h3 {
   margin: 15px; }
 
 .container-fluid .navbar navbar-expand-lg navbar-dark {
-  position: fixed; }
+  position: sticky; }
 
 .nav-link {
   font-size: 25px;
@@ -193,6 +191,7 @@ h3 {
       transform: scale(1.3);
       filter: sepia(50%); }
 
+/* keyframe para efecto de sombrero en contacto */
 @keyframes rotacion {
   from {
     transform: rotateZ(0deg); }
@@ -262,17 +261,9 @@ footer {
       transition: all 1s;
       border-radius: 50%;
       -webkit-border-radius: 50%;
-      /* transform: rotate(360deg);
-            -webkit-transform: rotate(360deg); */
       cursor: pointer;
       height: fit-content; }
 
-/* .gridGaleriaShow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   padding: 5px;  */
-/*  filter: opacity(100%);  */
 .galeriaShows .grid_itemShow {
   transition: all 3s;
   padding: 10px; }
@@ -300,7 +291,6 @@ footer {
 
 .imagenPortadaResponsiveShow .flex_itemShow img:hover {
   transition: all 3s;
-  /*     filter: hue-rotate(90deg); */
   border-radius: 50%;
   -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px #EA0606;
@@ -385,15 +375,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  /*  .botonContacto {
-  
-      font-size: 10px;
-  display: flex;
-     
-         align-items: center;
-         justify-content: center;
-      margin: 0 auto;
-    } */
   .botonContacto {
     display: flex;
     justify-content: center;
@@ -416,4 +397,6 @@ footer {
   .galeriaFlex img:hover {
     height: auto;
     transform: none;
-    filter: none; } }
+    filter: none; }
+  .sombreroMago {
+    display: none; } }
