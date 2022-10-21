@@ -3,7 +3,7 @@
 @import "galeria";
 @import "redes";
 
-
+/* globales */
 
 * {
   box-sizing: border-box;
@@ -71,15 +71,12 @@ h3 {
 
 }
 
-.container-fluid .navbar navbar-expand-lg navbar-dark {
-  position: sticky;
-}
 
 .nav-link {
 
   font-size: 25px;
 
-  /*   position: fixed; */
+  
   &:hover {
     background-color: red;
     border-radius: 5px;

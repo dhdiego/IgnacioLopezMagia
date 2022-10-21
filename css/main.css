@@ -17,8 +17,7 @@
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 0.5rem;
-    text-decoration: none;
-    /*  margin: 5px; */ }
+    text-decoration: none; }
     .botonContacto a:hover {
       background-color: red;
       padding: 15px; }
@@ -81,6 +80,7 @@
   .bi-youtube:hover {
     color: red; }
 
+/* globales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -129,12 +129,8 @@ h3 {
   font-size: 25px;
   margin: 15px; }
 
-.container-fluid .navbar navbar-expand-lg navbar-dark {
-  position: sticky; }
-
 .nav-link {
-  font-size: 25px;
-  /*   position: fixed; */ }
+  font-size: 25px; }
   .nav-link:hover {
     background-color: red;
     border-radius: 5px;
